@@ -2,7 +2,7 @@
 
 A proposal for the group's first year. Dates are targets and will be adjusted by the group.
 
-## Phase 0: set up (November 2026 – December 2027)
+## Phase 0: set up (November 2026 – December 2026)
 
 - Agree the charter and choose Chair(s).
 - Set up the repository: README, CONTRIBUTING, LICENSE, issue labels (`use-case`, `requirement`, `profile`, `test`, `liaison`), and a ReSpec skeleton for each deliverable.
