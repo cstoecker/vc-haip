@@ -81,7 +81,7 @@ We expect comparable trust models to emerge in other jurisdictions soon. The gro
 ### Specifications
 
 - **High Assurance Profile for W3C VCDM 2.0.** The group will choose a short name early. One that cannot be confused with OpenID's High Assurance Interoperability Profile (HAIP) is suggested, for example *VCDM-HAP*.
-- - **Experimental securing mechanisms** (optional): separate draft specifications, distinct from the Profile, incubated for later submission to a W3C Working Group. They are not part of the Profile's conformance requirements.
+- **Experimental securing mechanisms** (optional): separate draft specifications, distinct from the Profile, incubated for later submission to a W3C Working Group. They are not part of the Profile's conformance requirements.
 
 ### Non-Normative Reports
 
