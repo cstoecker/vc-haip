@@ -71,7 +71,7 @@ We expect comparable trust models to emerge in other jurisdictions soon. The gro
 
 ## Out of Scope
 
-- Changes to the VCDM 2.0 data model, or new securing mechanisms or cryptographic primitives.
+- Changes to the VCDM 2.0 data model, and the standardisation of new securing mechanisms or cryptographic primitives. The group may describe experimental securing mechanisms (for example, approaches that authenticate a credential before any JSON-LD processing) in non-normative notes, test cases and worked examples, so that the Profile can be evaluated against them.
 - New issuance or presentation protocols.
 - Credential formats other than W3C VCDM (for example SD-JWT VC and ISO mdoc), except for informative comparison.
 - Legal recognition, accreditation or certification decisions, which belong to the relevant authorities.
@@ -85,7 +85,7 @@ We expect comparable trust models to emerge in other jurisdictions soon. The gro
 ### Non-Normative Reports
 
 - **Use Cases and Requirements.**
-- **Alignment notes** with related specifications, for example the ETSI TS 119 472 series and OpenID4VC HAIP.
+- **Notes on experimental securing mechanisms**, non-normative, with test cases and worked examples.
 
 The group may produce other Community Group Reports within the scope of this charter that are not Specifications, such as use cases, requirements, or white papers.
 
