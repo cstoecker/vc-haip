@@ -10,11 +10,11 @@ This charter is a proposal for discussion. Please send feedback as GitHub issues
 
 Verifiable credentials are moving into uses where a wrong decision is expensive or hard to undo: qualified attestations of attributes, business registers, product passports, supply chains, and automated decisions by software agents, industrial AI and robots. These uses need fewer options and stronger guarantees than a general data model provides.
 
-The group develops a **high-assurance profile of the W3C Verifiable Credentials Data Model 2.0**: a small, testable set of choices and requirements that issuers, wallets, verifiers and the publishers of credential vocabularies can implement. The aim is a verifiable evidence layer that people and machines can rely on. It is anchored in the eIDAS trust framework and works with comparable frameworks elsewhere.
+The group develops a **high-assurance profile of the W3C Verifiable Credentials specifications**: the Verifiable Credentials Data Model (VCDM 2.1 once it is a Recommendation, staying compatible with 2.0 deployments in the meantime) together with the related specifications it relies on, such as Verifiable Credential Data Integrity and its cryptosuites, Securing Verifiable Credentials using JOSE and COSE, Bitstring Status List and Controlled Identifiers. The Profile is a cross-section of this suite: a small, testable set of choices and requirements that issuers, wallets, verifiers and the publishers of credential vocabularies can implement. The aim is a verifiable evidence layer that people and machines can rely on. It is anchored in the eIDAS trust framework and works with comparable frameworks elsewhere.
 
 ### Objectives
 
-1. **Fewer options, same model.** Profile VCDM 2.0 rather than extend it. Choose securing mechanisms, algorithms, key resolution, holder binding and status mechanisms that are mandatory to implement.
+1. **Fewer options, same specifications.** Profile the VC specifications rather than extend them. Choose securing mechanisms, algorithms, key resolution, holder binding and status mechanisms that are mandatory to implement.
 2. **Trustworthy meaning.** Make the documents that give a credential its meaning (contexts, vocabularies, schemas) verifiable: identified, integrity-protected, versioned and loaded under clear rules, so that two verifiers reach the same reading of the same credential.
 3. **Regulatory alignment.** Work with existing trust frameworks, using the EU as the reference case: qualified and non-qualified attestations of attributes under eIDAS 2.0 (ETSI TS 119 472 series), trusted lists and the European Business Wallet. Keep the core usable in other jurisdictions (see below).
 4. **Interoperable exchange.** Define how profiled credentials travel over existing issuance and presentation protocols, without defining new protocols.
@@ -55,7 +55,7 @@ We expect comparable trust models to emerge in other jurisdictions soon. The gro
 
 ## Scope of Work
 
-- A profile of VCDM 2.0 covering:
+- A profile of the VC specifications (VCDM 2.1, compatible with 2.0, and the related specifications named under Goals) covering:
   - securing mechanisms (Data Integrity and VC-JOSE-COSE) and their parameters;
   - algorithms and cryptographic agility;
   - issuer identification, issuer authorisation and key resolution;
@@ -71,7 +71,7 @@ We expect comparable trust models to emerge in other jurisdictions soon. The gro
 
 ## Out of Scope
 
-- Changes to the VCDM 2.0 data model, and the standardisation of new securing mechanisms or cryptographic primitives. The group may describe experimental securing mechanisms (for example, approaches that authenticate a credential before any JSON-LD processing) in non-normative notes, test cases and worked examples, and may incubate them as separate draft specifications, distinct from the Profile, for later submission to a W3C Working Group.
+- Changes to the VC data model, and the standardisation of new securing mechanisms or cryptographic primitives. The group may describe experimental securing mechanisms (for example, approaches that authenticate a credential before any JSON-LD processing) in non-normative notes, test cases and worked examples, and may incubate them as separate draft specifications, distinct from the Profile, for later submission to a W3C Working Group.
 - New issuance or presentation protocols.
 - Credential formats other than W3C VCDM (for example SD-JWT VC and ISO mdoc), except for informative comparison.
 - Legal recognition, accreditation or certification decisions, which belong to the relevant authorities.
@@ -80,7 +80,7 @@ We expect comparable trust models to emerge in other jurisdictions soon. The gro
 
 ### Specifications
 
-- **High Assurance Profile for W3C VCDM 2.0.** The group will choose a short name early. One that cannot be confused with OpenID's High Assurance Interoperability Profile (HAIP) is suggested, for example *VCDM-HAP*.
+- **High Assurance Profile for W3C Verifiable Credentials** (working title). It profiles VCDM 2.1 and the related specifications named under Goals. Proposed short name: *VC-HAP*, which cannot be confused with OpenID's High Assurance Interoperability Profile (HAIP). The group confirms the name and short name early; the group's own name stays unchanged.
 - **Experimental securing mechanisms** (optional): separate draft specifications, distinct from the Profile, incubated for later submission to a W3C Working Group. They are not part of the Profile's conformance requirements.
 
 ### Non-Normative Reports

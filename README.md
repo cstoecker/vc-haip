@@ -2,7 +2,7 @@
 
 This is the repository of the W3C [High Assurance Profile for W3C VCDM 2.0 Community Group](https://www.w3.org/community/vc-haip/).
 
-The group develops a high-assurance profile of the [W3C Verifiable Credentials Data Model 2.0](https://www.w3.org/TR/vc-data-model-2.0/): a small, testable set of choices and requirements for issuers, wallets, verifiers and the publishers of credential vocabularies. It is anchored in the eIDAS trust framework and open to comparable frameworks.
+The group develops a high-assurance profile of the W3C Verifiable Credentials specifications: the [Verifiable Credentials Data Model](https://www.w3.org/TR/vc-data-model-2.0/) (2.1 once it is a Recommendation) and the related specifications it relies on, such as Data Integrity and its cryptosuites, VC-JOSE-COSE, Bitstring Status List and Controlled Identifiers. The Profile is a small, testable set of choices and requirements for issuers, wallets, verifiers and the publishers of credential vocabularies. It is anchored in the eIDAS trust framework and open to comparable frameworks.
 
 The group starts with the European Union as its reference case. eIDAS 2.0, the European Digital Identity Wallet and the proposed European Business Wallet give attestations of attributes, including qualified ones, a legal framework and technical standards. The profile's core stays independent of any jurisdiction, so that it can also be used where similar trust models emerge elsewhere. See [Why the EU is the reference case](charter.md#why-the-group-starts-with-the-european-union-as-its-reference-case) in the draft charter.
 

@@ -6,7 +6,7 @@ A proposal for the group's first year. Dates are targets and will be adjusted by
 
 - Agree the charter and choose Chair(s).
 - Set up the repository: README, CONTRIBUTING, LICENSE, issue labels (`use-case`, `requirement`, `profile`, `test`, `liaison`), and a ReSpec skeleton for each deliverable.
-- Choose a short name for the Specification.
+- Confirm the name and short name of the Specification (proposed: *High Assurance Profile for W3C Verifiable Credentials*, *VC-HAP*).
 - Call for use cases, implementations and candidate input documents.
 - Agree a meeting rhythm (proposal: a call every two weeks, minutes posted as GitHub issues).
 
