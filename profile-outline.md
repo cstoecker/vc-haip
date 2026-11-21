@@ -53,39 +53,49 @@ Terms from VCDM 2.0, eIDAS 2.0 (EAA, QEAA, PuB-EAA) and this profile (for exampl
 - 7.3 Publication, update and withdrawal
 - 7.4 Processing limits
 
-## 8. Issuers, keys and holders
+## 8. Assurance levels in mixed evidence graphs
 
-- 8.1 Issuer identification and key resolution (X.509 and decentralized identifiers)
-- 8.2 Issuer authorisation per credential type
-- 8.3 Holder binding
+- 8.1 Levels: qualified (Q: QEAA, PuB-EAA), signed (E), unsigned (U), no attributable source (⊥)
+- 8.2 Assigning a level from the verifier's own validation, never from a label inside a credential
+- 8.3 No elevation: wrapping, re-signing, merging or presenting never raises a level
+- 8.4 Provenance per statement in merged graphs: issuer, meaning, version, authority, level
+- 8.5 Policy: minimum level per fact or authority relationship; unsigned data never satisfies a requirement for signed evidence
 
-## 9. Credential status
+Background: *Proofs over Statements in Verifiable Evidence Graphs for the European Business Wallet*, v1.3, §4.2 and Figure 2.
 
-- 9.1 Status mechanisms and parameters
-- 9.2 Freshness, and handling of unavailable status
+## 9. Issuers, keys and holders
 
-## 10. Verification
+- 9.1 Issuer identification and key resolution (X.509 and decentralized identifiers)
+- 9.2 Issuer authorisation per credential type
+- 9.3 Holder binding
 
-- 10.1 Verification procedure, step by step
-- 10.2 Outcomes: valid, invalid, unknown
-- 10.3 Decision records for later review
+## 10. Credential status
 
-## 11. Protocol bindings
+- 10.1 Status mechanisms and parameters
+- 10.2 Freshness, and handling of unavailable status
 
-- 11.1 OpenID for Verifiable Credential Issuance
-- 11.2 OpenID for Verifiable Presentations and the Digital Credentials API
-- 11.3 W3C VC API
+## 11. Verification
 
-## 12. Jurisdiction modules
+- 11.1 Verification procedure, step by step
+- 11.2 Outcomes: valid, invalid, unknown
+- 11.3 Decision records for later review
 
-- 12.1 EU module: EAA, QEAA and PuB-EAA as W3C Verifiable Credentials; trusted lists; alignment with ETSI TS 119 472
-- 12.2 Template for modules from other jurisdictions
+## 12. Protocol bindings
 
-## 13. Security considerations
+- 12.1 OpenID for Verifiable Credential Issuance
+- 12.2 OpenID for Verifiable Presentations and the Digital Credentials API
+- 12.3 W3C VC API
 
-## 14. Privacy considerations
+## 13. Jurisdiction modules
 
-## 15. Test suite
+- 13.1 EU module: EAA, QEAA and PuB-EAA as W3C Verifiable Credentials; trusted lists; alignment with ETSI TS 119 472
+- 13.2 Template for modules from other jurisdictions
+
+## 14. Security considerations
+
+## 15. Privacy considerations
+
+## 16. Test suite
 
 How tests are organised, numbered and run; positive and negative tests.
 
@@ -99,5 +109,5 @@ How tests are organised, numbered and run; positive and negative tests.
 ## Open questions
 
 1. Is this the right granularity, or should some sections become separate documents?
-2. Should protocol bindings (§11) live in this Specification or in separate notes?
+2. Should protocol bindings (§12) live in this Specification or in separate notes?
 3. Which jurisdiction modules beyond the EU should we plan for?
