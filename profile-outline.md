@@ -55,7 +55,7 @@ Terms from VCDM 2.0, eIDAS 2.0 (EAA, QEAA, PuB-EAA) and this profile (for exampl
 
 ## 8. Assurance levels in mixed evidence graphs
 
-- 8.1 Levels: qualified (Q: QEAA, PuB-EAA), signed (E), unsigned (U), no attributable source (⊥)
+- 8.1 Levels: qualified (Q: QEAA, PuB-EAA), signed evidence (E), unsigned (U), no attributable source (⊥)
 - 8.2 Assigning a level from the verifier's own validation, never from a label inside a credential
 - 8.3 No elevation: wrapping, re-signing, merging or presenting never raises a level
 - 8.4 Provenance per statement in merged graphs: issuer, meaning, version, authority, level
