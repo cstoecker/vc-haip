@@ -17,7 +17,7 @@ The group develops a **high-assurance profile of the W3C Verifiable Credentials 
 1. **Fewer options, same specifications.** Profile the VC specifications rather than extend them. Choose securing mechanisms, algorithms, key resolution, holder binding and status mechanisms that are mandatory to implement.
 2. **Trustworthy meaning.** Make the documents that give a credential its meaning (contexts, vocabularies, schemas) verifiable: identified, integrity-protected, versioned and loaded under clear rules, so that two verifiers reach the same reading of the same credential.
 3. **Regulatory alignment.** Work with existing trust frameworks, using the EU as the reference case: qualified and non-qualified attestations of attributes under eIDAS 2.0 (ETSI TS 119 472 series), trusted lists and the European Business Wallet. Keep the core usable in other jurisdictions (see below).
-4. **Interoperable exchange.** Define how profiled credentials travel over existing issuance and presentation protocols, without defining new protocols.
+4. **Interoperable exchange.** Define how profiled credentials travel over existing issuance, presentation and exchange protocols, including machine-to-machine and data space protocols, without defining new protocols. Analyse the protocol architecture options before choosing bindings.
 5. **Evidence for automated decisions.** Define what a relying party, human or machine, records so that a decision based on a credential can be explained and checked later.
 6. **Long-term readiness.** Provide for long-lived credentials, including algorithm agility and a transition path to quantum-resistant signatures.
 7. **Testability.** Every normative requirement is backed by an open test, including negative tests for known attacks, wherever a test is possible.
@@ -66,7 +66,7 @@ We expect comparable trust models to emerge in other jurisdictions soon. The gro
   - serialisation rules (JSON-LD, and where needed CBOR-LD and YAML-LD);
   - records of verification decisions.
 - An EU module for qualified and public-body attestations of attributes, and room for modules for other jurisdictions.
-- Bindings of the profile to existing protocols, for example OpenID for Verifiable Credential Issuance and Presentations, the Digital Credentials API, and the W3C VC API.
+- - Bindings of the profile to existing protocols, for example OpenID for Verifiable Credential Issuance and Presentations, the Digital Credentials API, the W3C VC API, DIDComm/PE, and data space protocols such as the Eclipse Dataspace Protocol (DSP) and the Eclipse Decentralized Claims Protocol (DCP) as well as other potentially relevant protocols (e.g. emerging Agent-to-Agent protocols).
 - Conformance classes for issuers, holders/wallets, verifiers, vocabulary publishers and registry operators.
 - Use cases and requirements; a conformance test suite.
 
@@ -104,6 +104,8 @@ The group MAY produce test suites to support the Specifications. Please see the 
   - Credentials Community Group;
   - Federated Identity Working Group (Digital Credentials API).
 - **OpenID Foundation:** Digital Credentials Protocols Working Group.
+- **Decentralized Identity Foundation (DIF):** DIDComm/PE/WACI-DIDComm.
+- **Eclipse Foundation:** Eclipse Dataspace Working Group (Dataspace Protocol, Decentralized Claims Protocol), and data space initiatives that use them.
 - **ETSI:** TC ESI (Electronic Signatures and Trust Infrastructures).
 - **IETF:** working groups on JOSE/COSE, OAuth and SCITT, where relevant.
 - **European projects and programmes:** large-scale pilots on the EU Digital Identity Wallet and the European Business Wallet, and comparable programmes elsewhere.
