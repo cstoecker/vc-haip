@@ -107,7 +107,7 @@ The group MAY produce test suites to support the Specifications. Please see the 
 - **IETF:** working groups on JOSE/COSE, OAuth and SCITT, where relevant.
 - **European projects and programmes:** large-scale pilots on the EU Digital Identity Wallet and the European Business Wallet, and comparable programmes elsewhere.
 
-The group may propose its Specification for standardisation in a W3C Working Group.
+The group plans to propose its Specification for standardisation in a W3C Working Group.
 
 ## Community and Business Group Process
 
