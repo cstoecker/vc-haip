@@ -62,6 +62,7 @@ We expect comparable trust models to emerge in other jurisdictions soon. The gro
   - holder binding and selective disclosure;
   - credential status;
   - rules for the integrity, versioning and loading of contexts, vocabularies and schemas;
+  - checks a verifier performs before JSON-LD processing, building on Credential Validators (https://www.w3.org/TR/vc-recognized-entities-1.0/#credential-validators);
   - serialisation rules (JSON-LD, and where needed CBOR-LD and YAML-LD);
   - records of verification decisions.
 - An EU module for qualified and public-body attestations of attributes, and room for modules for other jurisdictions.
@@ -71,7 +72,7 @@ We expect comparable trust models to emerge in other jurisdictions soon. The gro
 
 ## Out of Scope
 
-- Changes to the VC data model, and the standardisation of new securing mechanisms or cryptographic primitives. The group may describe experimental securing mechanisms (for example, approaches that authenticate a credential before any JSON-LD processing) in non-normative notes, test cases and worked examples, and may incubate them as separate draft specifications, distinct from the Profile, for later submission to a W3C Working Group.
+- Changes to the VC data model, and new cryptographic primitives. The group may describe experimental securing mechanisms in non-normative notes, test cases and worked examples, and may incubate them as separate draft specifications, distinct from the Profile, for later submission to a W3C Working Group.
 - New issuance or presentation protocols.
 - Credential formats other than W3C VCDM (for example SD-JWT VC and ISO mdoc), except for informative comparison.
 - Legal recognition, accreditation or certification decisions, which belong to the relevant authorities.
