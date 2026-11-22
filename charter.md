@@ -19,7 +19,7 @@ The group develops a **high-assurance profile of the W3C Verifiable Credentials 
 3. **Regulatory alignment.** Work with existing trust frameworks, using the EU as the reference case: qualified and non-qualified attestations of attributes under eIDAS 2.0 (ETSI TS 119 472 series), trusted lists and the European Business Wallet. Keep the core usable in other jurisdictions (see below).
 4. **Interoperable exchange.** Define how profiled credentials travel over existing issuance and presentation protocols, without defining new protocols.
 5. **Evidence for automated decisions.** Define what a relying party, human or machine, records so that a decision based on a credential can be explained and checked later.
-6. **Long-term readiness.** Provide for long-lived credentials, including algorithm agility and a transition path to post-quantum signatures.
+6. **Long-term readiness.** Provide for long-lived credentials, including algorithm agility and a transition path to quantum-resistant signatures.
 7. **Testability.** Every normative requirement is backed by an open test, including negative tests for known attacks, wherever a test is possible.
 
 ## Why the group starts with the European Union as its reference case
