@@ -52,6 +52,7 @@ We expect comparable trust models to emerge in other jurisdictions soon. The gro
 
   The term is used in the profile's own sense. It is distinct from, though compatible with, the eIDAS assurance levels for electronic identification means (low, substantial, high).
 - **Legal compliance.** Meeting the legal requirements that apply to issuing and relying on a credential: eIDAS and its implementing acts, data protection law, and sector rules such as those for product passports or anti-money-laundering checks. The profile supports compliance by making requirements explicit and testable. It does not by itself establish legal recognition, which remains with the competent authorities (see Out of Scope).
+- **VC-HAP.** The short name of the Profile. "VC" places it in the W3C Verifiable Credentials specification family, whose short names all start with "vc-" (for example vc-data-model-2.0, vc-data-integrity, vc-jose-cose and vc-bitstring-status-list). "HAP" stands for **H**igh **A**ssurance **P**rofile. The short name deliberately differs from OpenID's High Assurance Interoperability Profile (HAIP), which profiles SD-JWT VC and ISO mdoc. The Community Group keeps its own name and short name (vc-haip); VC-HAP names the specification it produces.
 
 ## Scope of Work
 
@@ -81,7 +82,7 @@ We expect comparable trust models to emerge in other jurisdictions soon. The gro
 
 ### Specifications
 
-- **High Assurance Profile for W3C Verifiable Credentials** (working title). It profiles VCDM 2.1 and the related specifications named under Goals. Proposed short name: *VC-HAP*, which cannot be confused with OpenID's High Assurance Interoperability Profile (HAIP). The group confirms the name and short name early; the group's own name stays unchanged.
+- Short name: **VC-HAP** (see "Terms used in this charter"). The group confirms the name and short name early; the group's own name (as Github name) and short name (vc-haip) stay unchanged.
 - **Experimental securing mechanisms** (optional): separate draft specifications, distinct from the Profile, incubated for later submission to a W3C Working Group. They are not part of the Profile's conformance requirements.
 
 ### Non-Normative Reports
